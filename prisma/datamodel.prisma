@@ -1,0 +1,7 @@
+type User {
+  id: ID! @id // 默认生成的是@unique,改为@id
+  name: String!
+  password: String!
+  email: String
+  phone: String
+}
